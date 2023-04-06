@@ -13,8 +13,23 @@ function begin()
         rconsoleprint('@@LIGHT_GREEN@@')
         rconsolename("Etronix Hub")
         rconsoleprint("Welcome!\n")
+        if game.Players.LocalPlayer.UserId == 499939382 then
+        print("User ID Correct!")
         loadstring(game:HttpGet("https://raw.githubusercontent.com/cdezxswzq/hub/main/et"))()
-        
+        if game.Players.LocalPlayer.UserId == 2799887240 then
+        print("User ID Correct!")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/cdezxswzq/hub/main/et"))()
+        if game.Players.LocalPlayer.UserId == 1429083967 then
+        print("User ID Correct!")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/cdezxswzq/hub/main/et"))()
+        if game.Players.LocalPlayer.UserId == 2567444417 then
+        print("User ID Correct!")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/cdezxswzq/hub/main/et"))()
+        if game.Players.LocalPlayer.UserId == 794725235 then
+        print("User ID Correct!")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/cdezxswzq/hub/main/et"))()
+     
+     
     elseif input ~= key then
         rconsoleprint('@@RED@@')
         rconsoleprint("Incorrect key!\n")
