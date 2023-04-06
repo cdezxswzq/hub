@@ -15,7 +15,7 @@ function begin()
         rconsoleprint("Welcome!\n")
         loadstring(game:HttpGet("https://raw.githubusercontent.com/cdezxswzq/hub/main/et"))()
         
-    elseif input == key then
+    elseif input ~= key then
         rconsoleprint('@@RED@@')
         rconsoleprint("Incorrect key!\n")
         rconsolename("Wrong Key!")
