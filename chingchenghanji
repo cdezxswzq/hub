@@ -1,1 +1,29 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/cdezxswzq/hub/main/et"))()
+local input
+local key = loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/whitelists/main/etkey"))()
+
+function begin()
+    rconsoleprint('@@WHITE@@')
+    rconsolename("Etronix Hub - Key System")
+    rconsoleprint("Enter Key: ")
+    input = rconsoleinput()
+    
+    
+    if input == key then
+        rconsoleclear()
+        rconsoleprint('@@LIGHT_GREEN@@')
+        rconsolename("Etronix Hub")
+        rconsoleprint("Welcome!\n")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/cdezxswzq/hub/main/et"))()
+        
+    elseif input == key then
+        rconsoleprint('@@RED@@')
+        rconsoleprint("Incorrect key!\n")
+        rconsolename("Wrong Key!")
+        wait(2)
+        rconsoleclear()
+        begin()
+    end
+end
+
+
+begin()
