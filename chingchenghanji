@@ -2,12 +2,12 @@ local player = game.Players.LocalPlayer
 local input
 local key = loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/whitelists/main/etkey"))()
 
+
 function begin()
     rconsoleprint('@@WHITE@@')
     rconsolename("Etronix Hub - Key System")
     rconsoleprint("Enter Key: ")
     input = rconsoleinput()
-    
     
     
     if input == key then
