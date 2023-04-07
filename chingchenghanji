@@ -15,6 +15,7 @@ function begin()
         rconsoleprint('@@LIGHT_GREEN@@')
         rconsolename("Etronix Hub")
         rconsoleprint("Welcome!\n")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/roblox-jp-script/main/et"))()
      
      
     elseif input ~= key then
