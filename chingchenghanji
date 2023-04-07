@@ -9,11 +9,27 @@ function begin()
     input = rconsoleinput()
     
     
+    
     if input == key then
         rconsoleclear()
         rconsoleprint('@@LIGHT_GREEN@@')
         rconsolename("Etronix Hub")
         rconsoleprint("Welcome!\n")
+        if player.Name == "pokemon34643" then
+            print("Username correct!")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/roblox-jp-script/main/et"))()
+        if player.Name == "colden190" then
+            print("Username correct!")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/roblox-jp-script/main/et"))()
+        if player.Name == "lce_Blue" then
+            print("Username correct!")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/roblox-jp-script/main/et"))()
+        if player.Name == "Dreamboy_1257" then
+            print("Username correct!")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/roblox-jp-script/main/et"))()
+        if player.Name == "KareemLeon" then
+            print("Username correct!")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/roblox-jp-script/main/et"))()
      
      
     elseif input ~= key then
@@ -28,3 +44,8 @@ end
 
 
 begin()
+end
+end
+end
+end
+end
