@@ -18,37 +18,22 @@ function begin()
         if game.Players.LocalPlayer.UserId == 499939382 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/roblox-jp-script/main/et"))()
         print("Access Granted")
-        else
-        game.Players.LocalPlayer:Kick("Piracy is a serious crime.")
-        print("Denied")
         end
         if game.Players.LocalPlayer.UserId == 2799887240 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/roblox-jp-script/main/et"))()
         print("Access Granted")
-        else
-        game.Players.LocalPlayer:Kick("Piracy is a serious crime.")
-        print("Denied")
         end
         if game.Players.LocalPlayer.UserId == 794725235 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/roblox-jp-script/main/et"))()
         print("Access Granted")
-        else
-        game.Players.LocalPlayer:Kick("Piracy is a serious crime.")
-        print("Denied")
         end
         if game.Players.LocalPlayer.UserId == 1429083967 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/roblox-jp-script/main/et"))()
         print("Access Granted")
-        else
-        game.Players.LocalPlayer:Kick("Piracy is a serious crime.")
-        print("Denied")
         end
         if game.Players.LocalPlayer.UserId == 2567444417 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/roblox-jp-script/main/et"))()
         print("Access Granted")
-        else
-        game.Players.LocalPlayer:Kick("Piracy is a serious crime.")
-        print("Denied")
         end
      
     elseif input ~= key then
