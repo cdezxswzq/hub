@@ -2,7 +2,6 @@ local player = game.Players.LocalPlayer
 local input
 local key = loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/whitelists/main/etkey"))()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/whitelists/main/antidecom"))()
 
 function begin()
     rconsoleprint('@@WHITE@@')
