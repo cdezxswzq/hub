@@ -6,7 +6,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/whit
 
 function begin()
     rconsoleprint('@@WHITE@@')
-    rconsolename("Etronix Hub - Key System")
+    rconsolename("Etronix Hub | Key System")
     rconsoleprint("Enter Key: ")
     input = rconsoleinput()
     
