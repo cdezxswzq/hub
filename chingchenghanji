@@ -36,6 +36,10 @@ function begin()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/roblox-jp-script/main/et"))()
         print("Access Granted")
         end
+        if game.Players.LocalPlayer.UserId == 1153478935 then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/luckywastakenwow/roblox-jp-script/main/et"))()
+        print("Access Granted")
+        end
      
     elseif input ~= key then
         rconsoleprint('@@RED@@')
