@@ -1,5 +1,5 @@
 pcall(function()
-getgenv().rconsoleprint = g
+getgenv().rconsoleprint = skid
 end)
 
 local player = game.Players.LocalPlayer
